@@ -74,5 +74,9 @@ spec:
   issuerRef:
     name: vault-cluster-issuer
     kind: ClusterIssuer
+  privateKey:
+    algorithm: RSA
+    encoding: PKCS1
+    size: 4096
   dnsNames:
     - app-test-1.cluster.darkhonor.net
