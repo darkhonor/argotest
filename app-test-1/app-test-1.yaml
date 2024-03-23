@@ -70,6 +70,7 @@ metadata:
   name: app-test-1-cert
   namespace: app-test-1
 spec:
+  commonName: app-test-1.cluster.darkhonor.net
   secretName: app-test-1-tls-secret
   issuerRef:
     name: vault-cluster-issuer
