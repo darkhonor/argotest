@@ -73,7 +73,7 @@ spec:
   commonName: app-test-1.cluster.darkhonor.net
   secretName: app-test-1-tls-secret
   issuerRef:
-    name: vault-cluster-issuer
+    name: letsencrypt-prod-cluster-issuer
     kind: ClusterIssuer
   privateKey:
     algorithm: RSA
